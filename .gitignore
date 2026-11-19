@@ -1,0 +1,19 @@
+# Binarios
+bin/
+meetbot
+meetbot-server
+
+# Grabaciones y artefactos locales
+recordings/
+*.opus
+*.mp4
+*.wav
+
+# Entorno y variables
+.env
+*.log
+
+# SO y editores
+.DS_Store
+.idea/
+.vscode/

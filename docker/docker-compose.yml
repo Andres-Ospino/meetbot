@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  meetbot:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: meetbot
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./recordings:/recordings
+    environment:
+      - PORT=8080
+      - MEETBOT_API_KEY=secret-token-123
+      - MEETBOT_ARTIFACTS_DIR=/recordings
+      # Proveedor opcional de IA (compatible con OpenAI/Ollama)
+      # - MEETBOT_AI_API_KEY=sk-...
+      # - MEETBOT_AI_BASE_URL=https://api.openai.com/v1
+    restart: unless-stopped
