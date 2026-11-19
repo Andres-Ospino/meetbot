@@ -12,10 +12,10 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/meetbot/meetbot/internal/ai"
-	"github.com/meetbot/meetbot/internal/cdp"
-	"github.com/meetbot/meetbot/internal/media"
-	"github.com/meetbot/meetbot/internal/webhook"
+	"github.com/Andres-Ospino/meetbot/internal/ai"
+	"github.com/Andres-Ospino/meetbot/internal/cdp"
+	"github.com/Andres-Ospino/meetbot/internal/media"
+	"github.com/Andres-Ospino/meetbot/internal/webhook"
 )
 
 type Config struct {

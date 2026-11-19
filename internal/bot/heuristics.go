@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/meetbot/meetbot/internal/cdp"
+	"github.com/Andres-Ospino/meetbot/internal/cdp"
 )
 
 type MeetState string

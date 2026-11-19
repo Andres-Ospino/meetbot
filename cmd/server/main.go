@@ -10,7 +10,7 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 
-	"github.com/meetbot/meetbot/internal/bot"
+	"github.com/Andres-Ospino/meetbot/internal/bot"
 )
 
 type JoinRequest struct {

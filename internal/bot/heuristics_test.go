@@ -3,7 +3,7 @@ package bot
 import (
 	"testing"
 
-	"github.com/meetbot/meetbot/internal/cdp"
+	"github.com/Andres-Ospino/meetbot/internal/cdp"
 )
 
 func TestClassifyPage(t *testing.T) {
